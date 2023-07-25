@@ -1,5 +1,5 @@
-import BlogList from "./BlogList"
-import BlogForm from "./BlogForm"
+import BlogList from './BlogList'
+import BlogForm from './BlogForm'
 
 const UserPage = ({ user, blogs, handleLogout, handleCreate, addLike, handleDelete }) => {
 
