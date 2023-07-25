@@ -2,7 +2,7 @@
 
 const BlogDetails = ({ blog, addLike, user, handleDelete }) => {
     return (
-        <div>
+        <div className='blog'>
             <p>{blog.url}</p>
             <p>likes {blog.likes}<button onClick={() => addLike(blog)}>like</button></p>
             <p>{blog.user.name}</p>
